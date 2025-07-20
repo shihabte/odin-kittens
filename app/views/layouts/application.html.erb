@@ -23,6 +23,7 @@
   </head>
 
   <body>
+    <h1> <%= link_to "Kittens", root_path %></h1>
     <% flash.each do |key, message| %>
       <div class="flash flash-<%= key %>">
         <%= message %>
